@@ -39,7 +39,7 @@ const Home = () => {
                     sx={(theme) => ({
                         mt: { xs: 8, sm: 10 },
                         alignSelf: 'center',
-                        height: { xs: 900, sm: 700 },
+                        height: { xs: 850, sm: 700 },
                         width: '100%',
                         borderRadius: '10px',
                         outline: '1px solid',
@@ -62,7 +62,7 @@ const Home = () => {
                                     flexDirection: { xs: 'column', md: 'row' },
                                     alignSelf: 'left',
                                     textAlign: 'left',
-                                    fontSize: 'clamp(2.5rem, 8vw, 2rem)',
+                                    fontSize: 'clamp(1.5rem, 8vw, 2rem)',
                                 }}
                             >
                                 "Welcome!"
