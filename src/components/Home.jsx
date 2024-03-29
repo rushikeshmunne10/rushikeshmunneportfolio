@@ -39,7 +39,7 @@ const Home = () => {
                     sx={(theme) => ({
                         mt: { xs: 8, sm: 10 },
                         alignSelf: 'center',
-                        height: { xs: 700, sm: 700 },
+                        height: { xs: 900, sm: 700 },
                         width: '100%',
                         borderRadius: '10px',
                         outline: '1px solid',

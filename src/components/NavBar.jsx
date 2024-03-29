@@ -91,6 +91,7 @@ function NavBar({ mode, toggleColorMode }) {
                     theme.palette.mode === 'dark'
                       ? '#35baf6'
                       : '#2c387e',
+                  pl: {xs:2}
                 })}>
                 PORTFOLIO@RM</Box>
 
