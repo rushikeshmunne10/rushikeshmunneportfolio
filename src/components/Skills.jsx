@@ -9,56 +9,56 @@ import Typography from '@mui/material/Typography';
 
 const items = [
   {
-    icon: "src\\assets\\reactjs.png",
+    icon: "/assets/reactjs.png",
     title: 'React JS',
     description:
       'Skilled in React.js for dynamic UIs with efficient component architecture and virtual DOM for scalability.',
     website: "https://react.dev/learn",
   },
   {
-    icon: "src\\assets\\js.png",
+    icon: "/assets/js.png",
     title: 'JavaScript',
     description:
       'Proficient in JavaScript for developing interactive and responsive web applications.',
       website: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
-    icon: "src\\assets\\github.jpeg",
+    icon: "/assets/github.jpeg",
     title: 'Git / Github',
     description:
       'Competent in version control with Git/GitHub for seamless collaboration and code management, ensuring effective project workflow',
       website: "https://docs.github.com/en",
   },
   {
-    icon: "src\\assets\\nodejs.png",
+    icon: "/assets/nodejs.png",
     title: 'Node JS',
     description:
       'Leveraging Node.js to build scalable and efficient server-side applications.',
       website: "https://nodejs.org/docs/latest/api/",
   },
   {
-    icon: "src\\assets\\oops.png",
+    icon: "/assets/oops.png",
     title: 'OOPS',
     description:
       'Applying Object-Oriented Programming (OOP) principles for structured and modular problem-solving',
       website: "https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/",
   },
   {
-    icon: "src\\assets\\docker.jpeg",
+    icon: "/assets/docker.jpeg",
     title: 'Docker',
     description:
       'Utilizing Docker for containerized application deployment and efficient development workflows',
       website: "https://docs.docker.com/",
   },
   {
-    icon: "src\\assets\\nextjs.png",
+    icon: "/assets/nextjs.png",
     title: 'Next JS',
     description:
       'Competent in Next.js for server-side rendered web apps with efficient routing.',
       website: "https://nextjs.org/docs",
   },
   {
-    icon: "src\\assets\\mern.png",
+    icon: "/assets/mern.png",
     title: 'MERN Stack',
     description:
       'Skilled in MERN stack development for building robust and modern web applications.',
