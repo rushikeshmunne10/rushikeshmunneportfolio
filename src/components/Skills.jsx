@@ -6,59 +6,68 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import react from '../assets/reactjs.png';
+import js from '../assets/js.png';
+import github from '../assets/github.jpeg';
+import nodejs from '../assets/nodejs.png';
+import oops from '../assets/oops.png';
+import docker from '../assets/docker.jpeg';
+import nextjs from '../assets/nextjs.png'
+import mern from '../assets/mern.png';
+
 
 const items = [
   {
-    icon: "/assets/reactjs.png",
+    icon: [react],
     title: 'React JS',
     description:
       'Skilled in React.js for dynamic UIs with efficient component architecture and virtual DOM for scalability.',
     website: "https://react.dev/learn",
   },
   {
-    icon: "/assets/js.png",
+    icon: [js],
     title: 'JavaScript',
     description:
       'Proficient in JavaScript for developing interactive and responsive web applications.',
       website: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
-    icon: "/assets/github.jpeg",
+    icon: [github],
     title: 'Git / Github',
     description:
       'Competent in version control with Git/GitHub for seamless collaboration and code management, ensuring effective project workflow',
       website: "https://docs.github.com/en",
   },
   {
-    icon: "/assets/nodejs.png",
+    icon: [nodejs],
     title: 'Node JS',
     description:
       'Leveraging Node.js to build scalable and efficient server-side applications.',
       website: "https://nodejs.org/docs/latest/api/",
   },
   {
-    icon: "/assets/oops.png",
+    icon: [oops],
     title: 'OOPS',
     description:
       'Applying Object-Oriented Programming (OOP) principles for structured and modular problem-solving',
       website: "https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/",
   },
   {
-    icon: "/assets/docker.jpeg",
+    icon: [docker],
     title: 'Docker',
     description:
       'Utilizing Docker for containerized application deployment and efficient development workflows',
       website: "https://docs.docker.com/",
   },
   {
-    icon: "/assets/nextjs.png",
+    icon: [nextjs],
     title: 'Next JS',
     description:
       'Competent in Next.js for server-side rendered web apps with efficient routing.',
       website: "https://nextjs.org/docs",
   },
   {
-    icon: "/assets/mern.png",
+    icon: [mern],
     title: 'MERN Stack',
     description:
       'Skilled in MERN stack development for building robust and modern web applications.',
