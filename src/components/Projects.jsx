@@ -13,18 +13,6 @@ import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 
 const tiers = [
   {
-    title : 'Newsifyy',
-    stack : 'React JS, NewsAPI',
-    description: [
-      'Developed a dynamic news application using React JS',
-      'Integrated external news APIs to provide real-time news updates',
-      'Implemented user-friendly features for a seamless news browsing experience'
-    ],
-    buttonText: 'Visit Repository',
-    buttonVariant: 'outlined',
-    link: 'https://github.com/rushikeshmunne10/NewsApp'
-  },
-  {
     title : 'ToDoApp',
     stack : 'React JS, Tailwind CSS, Node JS, MongoDB',
     description: [
@@ -35,6 +23,18 @@ const tiers = [
     buttonText: 'Visit Webpage',
     buttonVariant: 'outlined',
     link: 'https://rushikeshmunne10.github.io/todoApp/'
+  },
+  {
+    title : 'Newsifyy ',
+    stack : 'React JS, NewsAPI',
+    description: [
+      'Developed a dynamic news application using React JS',
+      'Integrated external news APIs to provide real-time news updates',
+      'Implemented user-friendly features for a seamless news browsing experience'
+    ],
+    buttonText: 'Visit Repository',
+    buttonVariant: 'outlined',
+    link: 'https://github.com/rushikeshmunne10/NewsApp'
   },
   {
     title: 'Cloned Webpages',
@@ -95,6 +95,7 @@ export default function Projects() {
                 border: '1px solid',
                 borderColor: undefined,
                 background: 'linear-gradient(#033363, #021F3B)',
+                minBlockSize: '30rem',
               }}
             >
               <CardContent>
