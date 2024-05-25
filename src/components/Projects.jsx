@@ -12,18 +12,18 @@ import Typography from '@mui/material/Typography';
 import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 
 const tiers = [
-  {
-    title : 'ToDoApp',
-    stack : 'React JS, Tailwind CSS, Node JS, MongoDB',
-    description: [
-      'Developed a user-friendly interface allowing users to easily add, edit, and delete tasks',
-      'Integrated responsive design principles with Tailwind CSS for optimal viewing experience on various screen sizes',
-      'Utilized React hooks for state management and efficient component re-rendering'
-    ],
-    buttonText: 'Visit Webpage',
-    buttonVariant: 'outlined',
-    link: 'https://rushikeshmunne10.github.io/todoApp/'
-  },
+  // {
+  //   title : 'ToDoApp',
+  //   stack : 'React JS, Tailwind CSS, Node JS, MongoDB',
+  //   description: [
+  //     'Developed a user-friendly interface allowing users to easily add, edit, and delete tasks',
+  //     'Integrated responsive design principles with Tailwind CSS for optimal viewing experience on various screen sizes',
+  //     'Utilized React hooks for state management and efficient component re-rendering'
+  //   ],
+  //   buttonText: 'Visit Webpage',
+  //   buttonVariant: 'outlined',
+  //   link: 'https://rushikeshmunne10.github.io/todoApp/'
+  // },
   {
     title : 'Newsifyy ',
     stack : 'React JS, NewsAPI',
@@ -36,17 +36,17 @@ const tiers = [
     buttonVariant: 'outlined',
     link: 'https://github.com/rushikeshmunne10/NewsApp'
   },
-  {
-    title: 'Cloned Webpages',
-    stack: 'HTML,CSS',
-    description: [
-      'Successfully replicated various webpages using HTML and CSS',
-      'Demonstrated proficiency in front-end development by mimicking the structure and styling of existing websites',
-      'Gained hands-on experience in understanding and implementing diverse design patterns'
-    ],
-    buttonText: 'Visit Pages',
-    buttonVariant: 'outlined'
-  },
+  // {
+  //   title: 'Cloned Webpages',
+  //   stack: 'HTML,CSS',
+  //   description: [
+  //     'Successfully replicated various webpages using HTML and CSS',
+  //     'Demonstrated proficiency in front-end development by mimicking the structure and styling of existing websites',
+  //     'Gained hands-on experience in understanding and implementing diverse design patterns'
+  //   ],
+  //   buttonText: 'Visit Pages',
+  //   buttonVariant: 'outlined'
+  // },
 
 ];
 
