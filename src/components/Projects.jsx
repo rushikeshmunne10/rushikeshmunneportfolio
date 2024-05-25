@@ -34,7 +34,7 @@ const tiers = [
     ],
     buttonText: 'Visit Repository',
     buttonVariant: 'outlined',
-    link: 'https://github.com/rushikeshmunne10/NewsApp'
+    link: 'https://github.com/rushikeshmunne10/NewsApp',
   },
   // {
   //   title: 'Cloned Webpages',
