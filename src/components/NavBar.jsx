@@ -133,7 +133,7 @@ function NavBar({ mode, toggleColorMode }) {
                   sx={{ py: '6px', px: '12px' }}
                 >
                   <Typography variant="body2" color="text.primary">
-                    <a  href='https://docs.google.com/document/d/1BNPL6qpetZDgOlXw_vvlNfzytlsFmQGq/edit?usp=sharing&ouid=104208161993950924948&rtpof=true&sd=true' target='_blank' style={{ textDecoration: 'none', color: '#C0C0C0', fontSize: '0.9rem' }} >Resume</a>
+                    <a  href='https://docs.google.com/document/d/1Si_jueSIA6hgJlcvwLFsc44D6w8S2lSe/edit?usp=sharing&ouid=104208161993950924948&rtpof=true&sd=true' target='_blank' style={{ textDecoration: 'none', color: '#C0C0C0', fontSize: '0.9rem' }} >Resume</a>
                   </Typography>
                 </MenuItem>
               </Box>
