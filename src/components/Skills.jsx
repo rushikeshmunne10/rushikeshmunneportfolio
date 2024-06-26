@@ -52,13 +52,13 @@ const items = [
       'Applying Object-Oriented Programming (OOP) principles for structured and modular problem-solving',
       website: "https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/",
   },
-  {
-    icon: [docker],
-    title: 'Docker',
-    description:
-      'Utilizing Docker for containerized application deployment and efficient development workflows',
-      website: "https://docs.docker.com/",
-  },
+  // {
+  //   icon: [docker],
+  //   title: 'Docker',
+  //   description:
+  //     'Utilizing Docker for containerized application deployment and efficient development workflows',
+  //     website: "https://docs.docker.com/",
+  // },
   {
     icon: [nextjs],
     title: 'Next JS',
@@ -66,13 +66,13 @@ const items = [
       'Competent in Next.js for server-side rendered web apps with efficient routing.',
       website: "https://nextjs.org/docs",
   },
-  {
-    icon: [mern],
-    title: 'MERN Stack',
-    description:
-      'Skilled in MERN stack development for building robust and modern web applications.',
-      website: "https://www.geeksforgeeks.org/mern-stack/",
-  },
+  // {
+  //   icon: [mern],
+  //   title: 'MERN Stack',
+  //   description:
+  //     'Skilled in MERN stack development for building robust and modern web applications.',
+  //     website: "https://www.geeksforgeeks.org/mern-stack/",
+  // },
 ];
 
 export default function Skills() {
