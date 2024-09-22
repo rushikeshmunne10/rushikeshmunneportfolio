@@ -25,7 +25,7 @@ const tiers = [
   //   link: 'https://rushikeshmunne10.github.io/todoApp/'
   // },
   {
-    title : 'Newsifyy ',
+    title : 'Newsifyy',
     stack : 'React JS, NewsAPI',
     description: [
       'Developed a dynamic news application using React JS',
@@ -36,6 +36,19 @@ const tiers = [
     buttonVariant: 'outlined',
     link: 'https://github.com/rushikeshmunne10/NewsApp',
   },
+  {
+    title: "Custom Compiler",
+    stack: "JavaScript",
+    description: [
+      "Developed a custom compiler to convert a domain-specific language into executable JavaScript.",
+      "Implemented lexer, parser, and code generator to handle tokenization and syntax analysis.",
+      "Optimized for efficient processing and seamless code generation."
+    ],
+    buttonText: "Visit Repository",
+    buttonVariant: "outlined",
+    link: "https://github.com/rushikeshmunne10/"
+  }
+  
   // {
   //   title: 'Cloned Webpages',
   //   stack: 'HTML,CSS',
