@@ -30,7 +30,7 @@ const Home = () => {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    pt: { xs: 14, sm: 6 },
+                    pt: { xs: 10, sm: 4 },
                     pb: { xs: 8, sm: 12 },
                 }}
             >
@@ -39,7 +39,7 @@ const Home = () => {
                     sx={(theme) => ({
                         mt: { xs: 8, sm: 10 },
                         alignSelf: 'center',
-                        height: { xs: 850, sm: 700 },
+                        height: { xs: 550, sm: 600 },
                         width: '100%',
                         borderRadius: '10px',
                         outline: '1px solid',
@@ -84,7 +84,7 @@ const Home = () => {
                                 >
                                     Rushikesh Munne
                                 </Typography>
-                                ." <br />A third-year Computer Science student with a passion for problem-solving and decision-making. Throughout my academic journey, I've developed a strong foundation in various programming languages and concepts. I thrive in situations that require analytical thinking and strategic decision-making. Whether it's tackling coding challenges or devising efficient solutions, I'm always up for the task. Beyond academics, I'm deeply interested in exploring the endless possibilities within the realm of technology. I'm excited to leverage my skills and knowledge to contribute meaningfully to the ever-evolving field of computer science. Join me on this journey as I continue to grow, learn, and innovate!
+                                ." <br />Final-year computer science student with hands-on experience in software development and a demonstrated ability to tackle complex problems. I'm skilled at problem solving and delivering effective solutions, and I'm eager to apply my knowledge to real-world projects. I am eager to contribute to dynamic teams and fast-paced environments, and I am ready to make an impact in the tech industry while constantly growing and learning.
                             </Typography>
                         </Stack>
                         <Box
