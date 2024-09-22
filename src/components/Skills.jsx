@@ -14,9 +14,31 @@ import oops from '../assets/oops.png';
 import docker from '../assets/docker.jpeg';
 import nextjs from '../assets/nextjs.png'
 import mern from '../assets/mern.png';
+import java from '../assets/java.png';
+import postman from '../assets/postman.png';
 
 
 const items = [
+  {
+    icon: [js],
+    title: 'JavaScript',
+    description:
+      'Proficient in JavaScript for developing interactive and responsive web applications.',
+    website: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    icon: [java],
+    "title": "Java",
+    "description": "Skilled in Java for building scalable and efficient software solutions.",
+    "website": "https://docs.oracle.com/javase/"
+  },
+  {
+    icon: [oops],
+    title: 'OOPS',
+    description:
+      'Applying Object-Oriented Programming (OOP) principles for structured and modular problem-solving',
+    website: "https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/",
+  },
   {
     icon: [react],
     title: 'React JS',
@@ -25,47 +47,40 @@ const items = [
     website: "https://react.dev/learn",
   },
   {
-    icon: [js],
-    title: 'JavaScript',
+    icon: [nodejs],
+    title: 'Node JS',
     description:
-      'Proficient in JavaScript for developing interactive and responsive web applications.',
-      website: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      'Leveraging Node.js to build scalable and efficient server-side applications.',
+    website: "https://nodejs.org/docs/latest/api/",
+  },
+  {
+    icon: [nextjs],
+    title: 'Next JS',
+    description:
+      'Competent in Next.js for server-side rendered web apps with efficient routing.',
+    website: "https://nextjs.org/docs",
   },
   {
     icon: [github],
     title: 'Git / Github',
     description:
       'Competent in version control with Git/GitHub for seamless collaboration and code management, ensuring effective project workflow',
-      website: "https://docs.github.com/en",
+    website: "https://docs.github.com/en",
   },
   {
-    icon: [nodejs],
-    title: 'Node JS',
+    icon: [docker],
+    title: 'Docker',
     description:
-      'Leveraging Node.js to build scalable and efficient server-side applications.',
-      website: "https://nodejs.org/docs/latest/api/",
+      'Utilizing Docker for containerized application deployment and efficient development workflows',
+    website: "https://docs.docker.com/",
   },
   {
-    icon: [oops],
-    title: 'OOPS',
-    description:
-      'Applying Object-Oriented Programming (OOP) principles for structured and modular problem-solving',
-      website: "https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/",
-  },
-  // {
-  //   icon: [docker],
-  //   title: 'Docker',
-  //   description:
-  //     'Utilizing Docker for containerized application deployment and efficient development workflows',
-  //     website: "https://docs.docker.com/",
-  // },
-  {
-    icon: [nextjs],
-    title: 'Next JS',
-    description:
-      'Competent in Next.js for server-side rendered web apps with efficient routing.',
-      website: "https://nextjs.org/docs",
-  },
+    "icon": [postman],
+    "title": "Postman",
+    "description": "Proficient in using Postman for API testing and development, ensuring smooth integration and debugging of RESTful services.",
+    "website": "https://learning.postman.com/docs/getting-started/introduction/"
+  }
+  
   // {
   //   icon: [mern],
   //   title: 'MERN Stack',
@@ -105,10 +120,10 @@ export default function Skills() {
             Skills
           </Typography>
           <Typography variant="body1" sx={{ color: 'grey.400' }}>
-          Crafting my toolkit for success.
+            Crafting my toolkit for success.
           </Typography>
           <Typography variant="body2" sx={{ color: 'grey.400' }}>
-          <p>(Click the Titles to visit official Documentation)</p>
+            <p>(Click the Titles to visit official Documentation)</p>
           </Typography>
         </Box>
         <Grid container spacing={2.5}>
@@ -129,11 +144,11 @@ export default function Skills() {
                   backgroundColor: 'grey.900',
                 }}
               >
-                
+
                 <Box sx={{ opacity: '100%' }}><img src={item.icon} alt={item.title} width={50} /></Box>
                 <div>
                   <Typography fontWeight="medium" gutterBottom>
-                     <a href={item.website} target='_blank' style={{textDecoration: "none", color: "white"}}>{item.title}</a>
+                    <a href={item.website} target='_blank' style={{ textDecoration: "none", color: "white" }}>{item.title}</a>
                   </Typography>
                   <Typography variant="body2" sx={{ color: 'grey.300' }}>
                     {item.description}
